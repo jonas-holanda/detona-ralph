@@ -15,7 +15,7 @@
 
 ### Funcionalidades
 
-- **Sistema de Pontuação**: Clique no quadrado que o Ralph se encontra para pontuar.
+- **Sistema de Pontuação**: Clique na janela em que o Ralph se encontra para pontuar.
 - **Sistema de Tempo**: O jogador tem 60 segundos para conseguir o máximo de pontos possível.
 - **Sistema de Vidas**: Quando o jogador clica em uma janela onde não está o Ralph, ele perde uma vida. Ao todo são **3** vidas. Se perder as três o jogo termina.
 - **Botão de Jogar Novamente**: Caso queira jogar novamente, é só clicar no botão para reiniciar o jogo.
