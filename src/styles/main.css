@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.menu-time, .menu-score, .menu-lives {
+    margin-top: 1rem;
+}
+
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 180px;
+    width: 180px;;
+    border: 1px solid #8d3012;
+    background-image: url("../images/window.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-color: #cae4ef;
+    cursor: pointer;
+}
+
+.enemy {
+    background-image: url("../images/window.png") ,url("../images/ralph.png");
+    background-position:bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    position: absolute;
+    color: #ffd700;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: #000000;
+    border: 3px solid #ffd700;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+
+@-webkit-keyframes ef-pulse-grow {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+}
+@keyframes ef-pulse-grow {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+}
+.ef-pulse-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.ef-pulse-grow-active {
+    -webkit-animation-name: ef-pulse-grow;
+    animation-name: ef-pulse-grow;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        height: 110px;
+        padding: 2rem;
+    }
+
+    .menu-time, .menu-score, .menu-lives {
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .menu-time h2:nth-child(1), .menu-score h2:nth-child(1) {
+        margin-right: 1rem;
+    }
+
+    .square {
+        height: 120px;
+        width: 120px;;
+    }
+}
