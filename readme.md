@@ -1,8 +1,8 @@
 # Detona Ralph Game
 
-<p align="center">
-  <img src="./src/images/ralph.png" alt="ame Detona Ralph Logo">
-</p>
+
+[demo-game.webm](https://github.com/jonas-holanda/detona-ralph/assets/138180385/e2797f7a-1b2e-4eee-aada-c9c5319a4f03)
+
 
 **Tendo como base o jogo feito nas aulas, eu adicionei mais funcionalidades ao jogo do Detona Ralph, como mais estilizações no jogo, com uma janela de mensagem customizada, sistema de vidas, botão de jogar novamente e o deixando responsivo.**
 
