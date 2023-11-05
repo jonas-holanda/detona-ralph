@@ -72,6 +72,27 @@
     
 }
 
+.footer {
+    padding: 40px 0px 10px 0px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-top: 5px solid #ffd700;
+    border-bottom: 2px solid #ffd700;
+}
+
+.footer p {
+    font-size: .8rem;
+}
+
+.footer a {
+    color: #FEFF02;
+    text-decoration: none;
+}
+
 @-webkit-keyframes ef-pulse-grow {
     to {
       -webkit-transform: scale(1.1);

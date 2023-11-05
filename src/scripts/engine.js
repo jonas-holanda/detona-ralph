@@ -6,6 +6,9 @@ const state = {
         score: document.querySelector("#score"),
         life: document.querySelector("#life"),
         btnPlay: document.querySelector(".play-again"),
+        fullDate: new Date(),
+        date: document.getElementById("date"),
+
     },
     values: {
         hitPosition: 0,
@@ -18,6 +21,8 @@ const state = {
         countDownTimerId: setInterval(countDown, 1000),
     }
 };
+
+state.view.date.innerHTML = state.view.fullDate.getFullYear();
 
 function countDown() {
     state.values.currentTime--;
